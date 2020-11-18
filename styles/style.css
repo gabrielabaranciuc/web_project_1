@@ -16,36 +16,36 @@
   min-height: 600px;
   max-height: 756px;
   display: flex;
-  display:relative;
+  position: relative;
   margin: auto;
 }
 
 .logo_place_header {
   width: 154px;
   height: 31px;
-  position:absolute;
-  top:30px;
+  position: absolute;
+  top: 30px;
   margin-left: 64px;
 }
 
 .header__title {
-  width:730px;
+  width: 730px;
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
-  margin-left:64px;
-  display:flex;
-  align-items:center;
+  margin-left: 64px;
+  display: flex;
+  align-items: center;
 }
 
 .header__subtitle {
-  width:388px;
+  width: 388px;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-  margin-left:64px;
+  margin-left: 64px;
   bottom: 30px;
-  position:absolute;
+  position: absolute;
 }
 
 .header__link {
@@ -285,6 +285,7 @@ text-align: center;
   background-color: #1F1F1F;
   color:#F2F2F2;
   display: flex;
+  position: relative;
 }
 
 .footer__columns {
