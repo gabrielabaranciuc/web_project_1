@@ -4,23 +4,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Learning how to learn</title>
-  <link rel ="stylesheet" href="./styles/normalize.css">
+  <link rel ="stylesheet" href="./vendor/normalize.css">
   <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
   <div class="page">
     <header class="header">
-      <img class="logo_place_header" src="./images/logo_place_header.png" alt="there should be the a logo but something went wrong">
+      <img class="logo logo_place_header" src="./images/logo_place_header.png" alt="logo">
       <h1 class="header__title">Learning how to learn</h1>
       <p class="header__subtitle">The most effective, cutting-edge learning techniques that you can apply to your daily life.
-        <a href="#" class="header__link">Learn more &ShortRightArrow;</a>
+        <a href="#" class="header__link link">Learn more &ShortRightArrow;</a>
       </p>
-      <img class="header__main-illustration" src="images/header-image.png" alt="there should be an image">
+      <img class="header__main-illustration" src="images/header-image.png" alt="main image">
       <div class="header__square-pic"></div>
     </header>
     <main class="content">
       <section class="description" >
-        <div class="two-columns">
+        <article class="two-columns">
           <h2 class="two-columns__brief">The main problem with education</h2>
           <div class="two-columns__main-text">
             <p class="two-columns__paragraph">Whether it's at school or university, the one thing no one ever teaches you is how to teach yourself.
@@ -38,8 +38,8 @@
               There are certain techniques and exercises that can be applied to the learning process to help make it more efficient and engaging.
               This is exactly what we do at Practicum.
             </p>
-        </div>
-        </div>
+          </div>
+        </article>
       </section>
       <section class="digits">
         <h2 class="section-title">Facts and figures</h2>
@@ -53,7 +53,7 @@
             <li class="table__cell">
               <h3 class="table__heading">2.1 billion</h3>
               <p class="table__text">The number of adults with low reading proficiency</p>
-              <p>World Bank, 2017</p>
+              <p class="table__text">World Bank, 2017</p>
             </li>
             <li class="table__cell">
               <h3 class="table__heading">1,000 terabytes</h3>
@@ -65,8 +65,8 @@
             </li>
             <li class="table__cell">
               <h3 class="table__heading">420 million</h3>
-              <p class="table__text">The number of adults under 25 with insufficient education for finding employment
-                World Bank, 2017</p>
+              <p class="table__text">The number of adults under 25 with insufficient education for finding employment</p>
+              <p class="table__text">World Bank, 2017</p>
             </li>
             <li class="table__cell">
               <h3 class="table__heading">17 - 20 years old</h3>
@@ -141,19 +141,19 @@
               <div class="logo logo_place_footer"></div>
               <p class="footer__author">&copy; 2020. Gabriela Baranciuc</p>
           </div>
-          <div class="footer__column footer__column_content_info">
+          <nav class="footer__column footer__column_content_info">
               <h4 class="footer__column-heading">About Practicum by Yandex </h4>
               <ul class="footer__column-links">
-                  <li><a class="footer__column" href="#">Home page</a></li>
-                  <li><a class="footer__column" href="#">Concept</a></li>
-                  <li><a class="footer__column" href="#">Mentors</a></li>
+                  <li><a class="footer__column footer__column-link link" href="#">Home page</a></li>
+                  <li><a class="footer__column footer__column-link link" href="#">Concept</a></li>
+                  <li><a class="footer__column footer__column-link link" href="#">Mentors</a></li>
               </ul>
-          </div>
+            </nav>
           <div class="footer__column footer__column_content_social">
-              <h4 class="footer__column-social_heading">Social media</h4>
+              <h4 class="footer__column-heading">Social media</h4>
               <ul class="footer__column-links">
-                  <li><a class="footer__column" href="#"><img class="social__icons" src="./images/facebook_color_white.svg" alt="Facebook"> Facebook</a></li>
-                  <li><a class="footer__column" href="#"><img class="social__icons" src="./images/instagram_color_white.svg" alt="Instagram"> Instagram</a></li>
+                  <li><a class="footer__column footer__column-link link" href="#"><img class="footer__social-icon" src="./images/facebook_color_white.svg" alt="Facebook"> Facebook</a></li>
+                  <li><a class="footer__column footer__column-link link" href="#"><img class="footer__social-icon" src="./images/instagram_color_white.svg" alt="Instagram"> Instagram</a></li>
               </ul>
           </div>
       </div>
