@@ -10,7 +10,6 @@
 }
 
 .header {
-  color: #000000;
   background-color:#f2f2f2;
   height: 100vh;
   min-height: 600px;
@@ -36,6 +35,7 @@
   font-weight: bold;
   margin: 0 auto 0 64px;
   align-self: center;
+  z-index: 2;
 }
 
 .header__subtitle {
@@ -46,6 +46,8 @@
   left: 64px;
   bottom: 30px;
   position: absolute;
+  z-index: 2;
+  margin: 0;
 }
 
 .header__link {
@@ -222,16 +224,21 @@
   color: white;
   position: relative;
   overflow: hidden;
-  padding: 90px;
+  padding: 90px auto;
+}
+
+.section-title_theme_dark {
+  margin: 90px auto 0;
+  z-index: 1;
 }
 
 .section-subtitle_theme_dark {
-  margin: 20px auto 0 auto;
+  margin: 20px auto 0;
   z-index: 1;
 }
 
 .table_theme_dark {
-  margin: 0 auto 90px auto;
+  z-index: 1;
 }
 
 .table__cell_theme_dark {
@@ -279,7 +286,7 @@
   flex-basis: 711px;
   display: flex;
   flex-direction: column;
-  align-content: space-between;
+  justify-content: space-between;
 }
 
 .logo_place_footer {
@@ -291,7 +298,6 @@
 
 .footer__author {
   margin: 18px 0;
-  bottom: 0;
   left: 0;
   line-height: 25px;
   font-size: 18px;
