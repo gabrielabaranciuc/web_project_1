@@ -224,7 +224,7 @@
   color: white;
   position: relative;
   overflow: hidden;
-  padding: 90px auto;
+  padding: 90px 0;
   z-index: 1;
 }
 
