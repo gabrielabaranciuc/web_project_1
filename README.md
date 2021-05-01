@@ -14,3 +14,6 @@ A simple one-page website using HTML5 and CSS3, following the BEM methodology.
 - CSS3;
 - Flexbox;
 - BEM.
+
+## __3.Link project__
+[Link project](https://gabrielabaranciuc.github.io/web_project_1/)
